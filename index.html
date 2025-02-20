@@ -5,34 +5,19 @@
         <!-- largura da página será a largura do dispositivo -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Cartão de Apresentação </title>
-        <style>
-            body {
-                /* fonte do texto */
-                font-family: Arial, sans-serif;
-                background-color: cyan;
-                /* usa modelo FlexBox, conceito de caixa para posicionamento */
-                display: flex;
-                justify-content: center; /* centraliza na horizontal */
-                height: 100vh; /* altura da página 100% da altura da página*/
-                align-items: center; /* centraliza na vertical */
-
-            }
-            .container {
-                background-color: white;
-                padding: 20px; /* espaçamento interno */
-                border-radius: 10px; /* borda */
-                text-align: center; /* texto centralizado */
-                box-shadow: 0 4px 8px ; /* sombra */
-            }
-        </style>
+        <!-- faz referência ao arquivo css -->
+        <!-- rel é para designar o tipo da relação, que é folha de estilo -->
+        <!-- href é a referência do hipertexto -->
+        <link rel="stylesheet" href="css/styles.css"/>    
     </head>
     <body>
         <div class="container"> <!-- divisão lógica de conteúdo -->
-            <img src="https://placehold.co/150" alt="Foto de Perfil"/>
+            <img class="foto" src="https://placehold.co/150" alt="Foto de Perfil"/>
             <!-- cabeçalho de nível 2-->
             <h2> Daniel Pires </h2>
             <!-- parágrafo -->
             <p> Estudante do Departamento de Computação </p> 
+            <button> Seguir </button>
         </div>
     </body>
 </html>
