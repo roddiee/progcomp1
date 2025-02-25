@@ -1,19 +1,19 @@
-Disciplina de Programação de Computadores I
+Disciplina de Programação de Computadores I <br/>
+ 
+// configura o email no git <br/>
+1. git config --global user.email "dfpires@gmail.com" <br/>
+// configura o nome no git <br/>
+2. git config --global user.name "Daniel Pires" <br/>
+// cria repositório local <br/>
+3. git init <br/>
+// adiciona os arquivos para controle de versão <br/>
+4. git add . <br/>
+// gera uma versão <br/>
+5. git commit -m "primeiro site" <br/>
+// configura a ramificação do repositório no github <br/>
+6. git branch -M main <br/>
+// envia o projeto para o github <br/>
+7. git push https://github.com/dfpires/progcomp1.git main <br/>
 
-// configura o email no git
-1. git config --global user.email "dfpires@gmail.com"
-// configura o nome no git
-2. git config --global user.name "Daniel Pires"
-// cria repositório local
-3. git init
-// adiciona os arquivos para controle de versão
-4. git add .
-// gera uma versão
-5. git commit -m "primeiro site"
-// configura a ramificação do repositório no github
-6. git branch -M main
-// envia o projeto para o github
-7. git push https://github.com/dfpires/progcomp1.git main
-
-// quando quiser atualizar o github com as alterações locais:
+// quando quiser atualizar o github com as alterações locais:<br/>
 repetir os passos 4, 5 e 7
